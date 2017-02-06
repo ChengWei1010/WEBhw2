@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="mine.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie.com</title>
+<!-- to-top -->
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+		var offset = 1000;
+		var duration = 800;
+		jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+		jQuery('.back-to-top').fadeIn(duration);
+		} else {
+		jQuery('.back-to-top').fadeOut(duration);
+		}
+		});
+		jQuery('.back-to-top').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+		})
+		});
+	</script>
+</head>
+
+<body>
+	<div id="home"><a href="../hw1/index.html"><img src="../hw4/home.jpeg" alt=""></a></div>
+<!-- header -->
+	<header>
+		<img id="overview" src="overview.jpg" alt="overview">
+
+		<div id="intro">
+			movie introuduction<br><br>
+			<font color="white">MAZERUNNER:<br>
+			the Scorch Trials</font>
+		</div>
+
+		<div id="menufirst">
+			<div class="button" onclick='location.href="#1"'>BACKGROUND</div>
+			<div class="button" onclick='location.href="#2"'>CAST</div>
+			<div class="button" onclick='location.href="#3"'>PLOT</div>
+			<div class="button" onclick='location.href="#4"'>TRAILER</div>
+		</div>
+		<div class="bar"></div>
+	</header>	
+	<div id="content">
+<!-- section-background-->
+	<section id="1">
+		<div class="section">
+			<div class="title">Background</div>
+			<div id="background">
+				<p>
+					<b>Maze Runner: The Scorch Trials </b>is a 2015 American dystopian science fiction action thriller film based on James Dashner's novel The Scorch Trials, the second novel in The Maze Runner book series.<br><br>
+
+					The film is the sequel to the 2014 film <b>The Maze Runner</b> and the second installment in The Maze Runner film series.<br><br>
+					<a href="https://en.wikipedia.org/wiki/The_Maze_Runner_(film)">The Maze Runner link...</a>
+				</p>
+			</div>
+			<div id="oneimg"><img src="one.jpg" alt="one" ></div>
+		</div>
+	</section>
+<!-- section-cast -->
+	<section id="2">
+		<div class="section">
+			<div class="title">Cast</div>
+			<div id="roleimg"><img src="role.jpg" alt="role" ></div>
+			<div id="role">
+				<table>
+					<tr>
+						<td>Minho<br><br>(Ki Hong Lee)</td>
+						<td>Thomas<br><br>(Dylan O'Brien)</td>
+						<td>Newt<br><br>(Thomas Brodie-Sangster)</td>
+					</tr>
+
+					<tr><td colspan="3"><hr></td></tr>
+					
+					<tr>
+						<td>Brenda<br><br>(Rosa Salazar)</td>
+						<td>Teresa Agnes<br><br>(Kaya Scodelario)</td>
+						<td>Harriet<br><br>(Nathalie Emmanuel)</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+<!-- section-plot-->
+	<section id="3">
+		<div class="section">
+			<div class="title">Plot</div>
+			<p>
+				The film begins with a young boy, <b>Thomas</b>, taken in by <b>Ava Paige</b> and troops from the organization WCKD, alongside other children, after being dropped off by his mother for his own safety. <br><br>
+
+				Years later, shortly after being rescued from the maze, <b>Thomas</b> and the remaining Gladers - <b>Newt</b> , <b>Minho</b> , <b>Teresa Agnes</b> , <b>Frypan</b> and <b>Winston</b> - are taken to a facility run by <b>Mr. Janson</b>. <br>
+				He explains that the facility is a safe haven, protecting them from WCKD, the Flare virus and the Cranks, and provides them clothes, food, and sanitation, where there are other survivors of multiple mazes are also present. <br><br>
+
+				<b>Thomas</b> becomes curious about their activities and manages to find out what is really happening behind the closed doors. With help from <b>Aris Jones</b>, the first maze survivor to end up in the facility, it is revealed that WCKD's leader, <b>Ava</b>, is still alive and that <b>Mr. Janson</b> is working for WCKD, as they discuss about the experiment on the Immunes and that Janson has yet to find The Right Arm, a resistance group located at the mountains. <br><br>
+
+				The group, including <b>Aris</b>, escapes the facility, as <b>Janson</b> orders his WCKD troops to track them down, where they find themselves in the deserted outside world - the Scorch.
+				<a href="https://en.wikipedia.org/wiki/Maze_Runner:_The_Scorch_Trials#Plot">see more...</a>
+			</p>
+		</div>
+	<section id="4">	
+		<div class="section">
+			<div class="title">Trailer</div>
+			<iframe width="800" height="500" src="https://www.youtube.com/embed/-44_igsZtgU" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+<!-- footer-->
+<hr>
+		<footer>web programming homework<br>Copyright reserved. &copy; Design by Lily Cheng. 2015.October</footer>
+	</section>
+	</div>
+
+	<div id="menu-fixed">
+		<div class="button" onclick='location.href="#1"'>BACKGROUND</div><br>
+		<div class="button" onclick='location.href="#2"'>CAST</div><br>
+		<div class="button" onclick='location.href="#3"'>PLOT</div><br>
+		<div class="button" onclick='location.href="#4"'>TRAILER</div>
+	</div>
+		<div><a href="#" class="back-to-top">top</a></div>
+</body>
+</html>

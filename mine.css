@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+body{
+	margin: 0 auto;
+}
+header{
+	font-family: 'Orbitron', sans-serif;
+	padding: 40px 0px 0px 0px;
+	background: #93625e;
+	position: relative;
+	z-index: 99999;
+}
+footer{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 30px;
+	color: #93625e;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	height: 50px;
+}
+img{
+	width:100%;
+}
+h1{
+}
+p{
+	font-size: 22px;
+	line-height: 30px;
+}
+b{
+	color: red;
+}
+table{
+	padding-top: 60px;
+	width: 565px;
+	height: 150px;
+	text-align: left;
+	font-size: 18px;
+}
+td{
+	padding-right: 18px;
+}
+iframe{
+	padding: 80px 0;
+}
+a{
+	font-size: 25px;
+	font-family: 'Orbitron', sans-serif;
+	color: #93625e;
+}
+a:hover{
+	color:#FCDDBC;
+}
+/*********************class*****************************/
+.back-to-top {
+    position: fixed;
+	right: 50px;
+	bottom: 50px;
+	color: #93625e;
+    background-color: white;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 500px;
+    font-family: 'Orbitron', sans-serif;
+}
+.back-to-top:hover { 
+	color: white; 
+    background-color: #93625e;
+}
+.title{
+	height: 60px;
+	color: white;
+	line-height: 60px;
+	margin-right: 600px;
+	background-color: #93625e;
+	padding:20px;
+	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
+}
+.section{
+	height: 800px;
+	position: relative;
+}
+.button{
+	width: 170px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 19px;
+	background-color: #FCDDBC;
+	color: #93625e;
+	display: inline-block;
+	padding-right: 10px;
+}
+.button:hover{
+	background-color: #93625e;
+	color: white;
+}
+.bar{
+	height: 150px;
+	top: 0px;
+	background-color: #DAB894;
+	position: relative;
+}
+/*********************id********************************/
+#home{
+	position: fixed;
+	bottom: 0px;
+	left: 10px;
+	border-radius: 20px;
+	opacity: 0.9;
+}
+#overview{
+	width: 35%;
+	padding-left: 40px;
+	margin-bottom: -100px;
+}
+#intro{
+	float: right;
+	text-align: right;
+	position: relative;
+	line-height: 70px;
+	font-size:50px;
+	padding-right: 80px;
+	color: #FCDDBC;
+	padding-top: 100px;
+}
+#menufirst{
+	bottom: 0;
+	opacity: 0.7;
+	text-align: right;
+	height: 100px;
+	margin-left: 500px;
+}
+#menu-fixed{
+	font-family: 'Orbitron', sans-serif;
+	height: 100%;
+	width: 170px;
+	top: 0;
+	right: 0;
+	background-color: #FCDDBC;
+	text-align: right;
+	position: fixed;
+	float: right;
+	opacity: 0.7;
+}
+#content{ 
+	height: 2000px;
+	position: relative;
+	padding:0 300px 0 110px;
+}
+#trailer{
+	top: -100px;
+}
+#oneimg{
+	float: right;
+	width: 30%;
+	padding-top: 20px;
+}
+#background{
+	float: left;
+	width: 60%;
+}
+#roleimg{
+	width: 40%;
+	float: left;
+	padding: 40px 40px 0 0;
+}
+#role{
+	float: left;
+}
